@@ -1,7 +1,7 @@
 ---
 layout: post
 #标题配置
-title:  标题
+title:  动态规划 Dynamic Programming--从菜鸟到老鸟 [转载]
 #时间配置
 date:   2019-02-08 17:46:45 +0800
 #大类配置
