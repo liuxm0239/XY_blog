@@ -1,0 +1,26 @@
+# Site settings
+name: Xing Blog
+email: liuxm0315@hotmail.com
+author: Xingmin Liu
+#url: http://www.hifreud.com
+#resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/liuxm0239
+baseurl: "/XingBlog"
+description: Actually, less is more!
+meta_description: 个人博客;Experience keeps a dear school, but fools will learn in no other.
+motto: What we do not understand we do not possess.
+banner: No Silver Bullet.
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: liuxm0239
+
+# Build settings
+markdown: kramdown
+
+#baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+
