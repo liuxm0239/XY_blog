@@ -14,8 +14,9 @@ tag: 教程
 {:toc}
 
 ##搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门
-作者： 阮一峰 [原文](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+今天下午跟着网上的教程搭建了自己的独立博客空间，基于github/gitee + jekyll。主要参考的就是下面这篇博文，在这里分享一下。
 日期： 2012年8月25日
+作者： 阮一峰 [原文](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 
 喜欢写Blog的人，会经历三个阶段。
