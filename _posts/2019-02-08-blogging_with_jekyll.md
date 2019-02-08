@@ -13,11 +13,10 @@ tag: 教程
 * content
 {:toc}
 
-##搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门
-今天下午跟着网上的教程搭建了自己的独立博客空间，基于github/gitee + jekyll。主要参考的就是下面这篇博文，在这里分享一下。
-日期： 2012年8月25日
-作者： 阮一峰 [原文](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门
 
+今天下午跟着网上的教程搭建了自己的独立博客空间，基于github/gitee + jekyll。主要参考的就是下面这篇博文，在这里分享一下。
+作者： 阮一峰 [原文](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 喜欢写Blog的人，会经历三个阶段。
 
@@ -42,19 +41,13 @@ tag: 教程
 
 简单说，它是一个具有版本管理功能的代码仓库，每个项目都有一个主页，列出项目的源文件。
 
-
-
 但是对于一个新手来说，看到一大堆源码，只会让人头晕脑涨，不知何处入手。他希望看到的是，一个简明易懂的网页，说明每一步应该怎么做。因此，github就设计了Pages功能，允许用户自定义项目首页，用来替代默认的源码列表。所以，github Pages可以被认为是用户编写的、托管在github上的静态网页。
-
-
 
 github提供模板，允许站内生成网页，但也允许用户自己编写网页，然后上传。有意思的是，这种上传并不是单纯的上传，而是会经过Jekyll程序的再处理。
 
 ###二、Jekyll是什么？
 
 Jekyll（发音/'dʒiːk əl/，"杰克尔"）是一个静态站点生成器，它会根据网页源码生成静态文件。它提供了模板、变量、插件等功能，所以实际上可以用来编写整个网站。
-
-
 
 整个思路到这里就很明显了。你先在本地编写符合Jekyll规范的网站源码，然后上传到github，由github生成并托管整个网站。
 
@@ -116,23 +109,14 @@ Jekyll（发音/'dʒiːk əl/，"杰克尔"）是一个静态站点生成器，�
 进入该目录，创建一个default.html文件，作为Blog的默认模板。并在该文件中填入以下内容。
 ```
 　　<!DOCTYPE html>
-
 　　<html>
-
 　　<head>
-
 　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
 　　　　<title>{{ page.title }}</title>
-
 　　</head>
-
 　　<body>
-
 　　　　{{ content }}
-
 　　</body>
-
 　　</html>
 ```
 Jekyll使用Liquid模板语言，{{ page.title }}表示文章标题，{{ content }}表示文章内容，更多模板变量请参考官方文档。
@@ -148,7 +132,7 @@ Jekyll使用Liquid模板语言，{{ page.title }}表示文章标题，{{ content
 
 回到项目根目录，创建一个_posts目录，用于存放blog文章。
 
-`$ mkdir _posts`
+    ` $ mkdir _posts `
 
 进入该目录，创建第一篇文章。文章就是普通的文本文件，文件名假定为2012-08-25-hello-world.html。(注意，文件名必须为"年-月-日-文章标题.后缀名"的格式。如果网页代码采用html格式，后缀名为html；如果采用markdown格式，后缀名为md。）
 
@@ -233,18 +217,13 @@ Jekyll使用Liquid模板语言，{{ page.title }}表示文章标题，{{ content
 
 首页：
 
-
-
 文章页面：
-
-
 
 ####第七步，绑定域名。
 
 如果你不想用http://username.github.com/jekyll_demo/这个域名，可以换成自己的域名。
 
 具体方法是在repo的根目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如example.com或者xxx.example.com。
-
 如果绑定的是顶级域名，则DNS要新建一条A记录，指向204.232.175.78。如果绑定的是二级域名，则DNS要新建一条CNAME记录，指向username.github.com（请将username换成你的用户名）。此外，别忘了将_config.yml文件中的baseurl改成根目录"/"。
 
 至此，最简单的Blog就算搭建完成了。进一步的完善，请参考Jekyll创始人的示例库，以及其他用Jekyll搭建的blog。
@@ -256,5 +235,4 @@ Jekyll使用Liquid模板语言，{{ page.title }}表示文章标题，{{ content
 发表日期： 2012年8月25日
 更多内容： 档案 » 开发者手册
 文集：《前方的路》，《未来世界的幸存者》
-
 
