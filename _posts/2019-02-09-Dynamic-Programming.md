@@ -1,4 +1,19 @@
-mic Programming--从菜鸟到老鸟 [转载]
+---
+layout: post
+#标题配置
+title:  标题
+#时间配置
+date:   2019-02-08 17:46:45 +0800
+#大类配置
+categories: document
+#小类配置
+tag: 教程
+---
+
+* content
+{:toc}
+
+Dynamic Programming--从菜鸟到老鸟 [转载]
 
 原文 [http://write.blog.csdn.net/mdeditor#!postId=75193592](http://write.blog.csdn.net/mdeditor#!postId=75193592)，作者：[HankingHu](https://blog.csdn.net/u013309870)
 
