@@ -1,20 +1,3 @@
----
-layout: post
-
-#标题配置
-title: 搭建一个免费的，无限流量的Blog [reprint]
-
-#时间配置
-date: 2019-02-08 19:54:58 +0800
-
-#大类配置
-categories: document
-
-#小类配置
-tag: 教程
----
-* content
-{:toc}
 搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门
 
 今天下午跟着网上的教程搭建了自己的独立博客空间，基于github/gitee + jekyll。主要参考的就是下面这篇博文，在这里分享一下。
