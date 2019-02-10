@@ -5,9 +5,9 @@ title:  动态规划 Dynamic Programming--从菜鸟到老鸟 [转载]
 #时间配置
 date:   2019-02-08 17:46:45 +0800
 #大类配置
-categories: algorithm
+categories: 算法
 #小类配置
-tag: 教程
+tag: 编程
 ---
 
 * content

@@ -5,7 +5,7 @@ title: Python argparse
 #时间配置
 date:   2019-02-10 14:00:45 +0800
 #大类配置
-categories: python
+categories: Python
 #小类配置
 tag: tips
 ---

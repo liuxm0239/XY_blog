@@ -5,7 +5,7 @@ title:  搭建一个免费的，无限流量的Blog [reprint]
 #时间配置
 date:   2019-02-08 19:54:58 +0800
 #大类配置
-categories: document
+categories: Document
 #小类配置
 tag: 教程
 ---
